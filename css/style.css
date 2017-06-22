@@ -1,0 +1,112 @@
+html,body{
+    background-color: #f8f8f8;
+}
+section{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0.85rem 0.75rem 1.45rem 0.85rem;
+    width: 35.05rem;
+    height: 19.45rem;
+    background-color: #ffffff;
+}
+.one{
+    margin-top: 1.45rem;
+}
+.two{
+    margin-top: 1.55rem;
+}
+section .title{
+    position: relative;
+    width: 100%;
+    height: 2.75rem;
+}
+section .title span{
+    display: inline-block;
+    width: 2.75rem;
+    height: 2.75rem;
+    background: url("../images/computer.png") center no-repeat;
+    background-size: cover;
+}
+.two .title span{
+    background: url("../images/com-2.png") center no-repeat;
+    background-size: cover;
+}
+section .title p{
+    position: absolute;
+    top: 0;
+    left: 3.65rem;
+    font-size: 1.4rem;
+    line-height: 2.75rem;
+    color: #333333;
+}
+section .title ul{
+    position: absolute;
+    top: 0.25rem;
+    right: 0;
+}
+section .title ul li{
+    float: left;
+    margin-left: 0.5rem;
+    width: 2.1rem;
+    height: 2.1rem;
+    background: url("../images/star.png") center no-repeat;
+    background-size: cover;
+}
+section .title ul .active{
+    background: url("../images/starAct.png") center no-repeat;
+    background-size: cover;
+}
+section .message{
+    margin-top: 0.35rem;
+    padding-right: 3.4rem;
+    height: 0.9rem;
+    font-size: 0.9rem;
+    text-align: right;
+    color: #ff7d2c;
+}
+section .detail{
+    margin: 1.5rem 0 2.9rem;
+    height: 2rem;
+}
+section .detail ul li{
+    float: left;
+    margin-right: 0.8rem;
+    padding: 0.5rem 0.7rem;
+    font-size: 1rem;
+    border: 1px solid #999999;
+    color: #999999;
+}
+section .detail ul li:last-child{
+    margin-right: 0;
+}
+section .detail ul .act{
+    color: #ff6f15;
+    border-color: #ff7d2c;
+    background-color: #fff2ea;
+}
+section .writeBox{
+    margin: 0 auto;
+    width: 33rem;
+}
+section .writeBox textarea{
+    box-sizing: border-box;
+    padding: 0.7rem;
+    width: 33rem;
+    height: 6.95rem;
+    border: none;
+    resize: none;
+    font-size: 1.2rem;
+    color: #999999;
+    background-color: #eeeeee;
+}
+footer .button{
+    margin: 3.4rem auto;
+    width: 27rem;
+    height: 5.5rem;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 5.5rem;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    background-color: #ee73b3;
+}
