@@ -6,7 +6,6 @@ section{
     margin: 0 auto;
     padding: 0.85rem 0.75rem 1.45rem 0.85rem;
     width: 35.05rem;
-    height: 19.45rem;
     background-color: #ffffff;
 }
 .one{
@@ -70,7 +69,8 @@ section .detail{
 }
 section .detail ul li{
     float: left;
-    margin-right: 0.8rem;
+    margin-bottom: 1.1rem;
+    margin-right: 1.2rem;
     padding: 0.5rem 0.7rem;
     font-size: 1rem;
     border: 1px solid #999999;
