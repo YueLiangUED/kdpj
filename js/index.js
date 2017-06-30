@@ -9,7 +9,17 @@
 $(function () {
     //提交评价按钮
     $('.button').on('touchend',function () {
-        window.location.href = '';
+        $('.tc').fadeIn();
+        showMask();
+    });
+    //弹窗是
+    $('#yes').on('touchend',function () {
+
+    });
+    //弹窗否
+    $('#no').on('touchend',function () {
+        $('.tc').fadeOut();
+        hideMask();
     });
 
     /*评价*/
@@ -77,4 +87,17 @@ $(function () {
         }
     });
 
+    //显示遮罩层
+    function showMask(){
+        $("#mask").css("height",$(document).height());
+        $("#mask").css("width",$(document).width());
+        $("#mask").show();
+        $('#mask').on('touchend',function () {
+            showMask();
+        });
+    }
+    //隐藏遮罩层
+    function hideMask(){
+        $("#mask").hide();
+    }
 });
