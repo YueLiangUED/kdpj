@@ -135,6 +135,7 @@ footer .button{
     z-index: 9999;
 }
 .tc .tcTitle{
+    position: relative;
     width: 32.75rem;
     height: 4.65rem;
     border-radius: 1rem 1rem 0 0;
@@ -164,6 +165,18 @@ footer .button{
     font-size: 1.7rem;
     line-height: 4.65rem;
     color: #ffffff;
+}
+.tc .tcTitle i{
+    position: absolute;
+    top: 0;
+    right: 1.6rem;
+    bottom: 0;
+    margin: auto;
+    display: inline-block;
+    width: 1.8rem;
+    height: 1.8rem;
+    background: url("../images/close.png") center no-repeat;
+    background-size: cover;
 }
 .tc p{
     font-size: 1.8rem;

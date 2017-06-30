@@ -22,6 +22,11 @@ $(function () {
         $('.tc').fadeOut();
         hideMask();
     });
+    //关闭弹窗
+    $('#tcClose').on('touchend',function () {
+        $('.tc').fadeOut();
+        hideMask();
+    });
 
     /*评价*/
     function pingjia($selector) {
