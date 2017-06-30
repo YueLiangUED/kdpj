@@ -14,7 +14,8 @@ $(function () {
     });
     //弹窗是
     $('#yes').on('touchend',function () {
-
+        /*提交页获取带有active的星星li个数、带有act的标签li 以及表单的输入项(两个模块)*/
+        window.location.href = 'look.html';
     });
     //弹窗否
     $('#no').on('touchend',function () {
