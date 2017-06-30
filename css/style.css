@@ -64,8 +64,7 @@ section .message{
     color: #ff7d2c;
 }
 section .detail{
-    margin: 1.5rem 0 2.9rem;
-    height: 2rem;
+    margin: 1.5rem 0 1.5rem;
 }
 section .detail ul li{
     float: left;
